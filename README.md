@@ -3,5 +3,7 @@
 ## Summary
 
 - Arrays
-  - hashmap
-  - left and right pointers
+  - hash map
+  - two-pointer
+- Strings
+  - sliding window
