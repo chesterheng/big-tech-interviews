@@ -7,3 +7,6 @@
   - two-pointer
 - Strings
   - sliding window
+- Linked Lists
+  - singly vs doubly
+  - cycle detection
