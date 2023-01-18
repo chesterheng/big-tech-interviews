@@ -10,4 +10,4 @@
 - Linked Lists
   - singly vs doubly
   - cycle detection
-- Stacks
+- Stacks vs Queues
