@@ -2,6 +2,12 @@
 
 ## Summary
 
+- How to solve?
+  - verify the constraints
+  - write out some test cases
+  - figure out a solution without code
+  - write out our solution in code
+  - double check for errors
 - Arrays
   - hash map
   - two-pointer
@@ -20,6 +26,34 @@
   - patterns: if, for ([] within []), check for relationship between is n and n-1
   - sorting: quick sort, quick select
   - search: binary search 
+- Binary Trees
+  - search
+    - breath first search
+      - iterative
+    - depth first search
+      - recursion
+      - determine traversal
+  - traversal
+    - pre-order traversal
+    - in-order traversal
+    - post-order traversal
+  - maximum depth
+    - number of nodes from root node to furthest leaf node
+  - full tree
+    - each node has either 0 or 2 children
+  - complete tree
+    - every level must be complete except last level is pushed as far left
+  - binary search tree
+    - all left nodes value < current node value
+    - all right nodes value > current node value
+    - no duplicate value
+  - heaps
+    - is a complete tree
+    - max/min heap
+    - use max heap to implement a priority queue
+  - priority queue
+    - holds a collection of elements, each with an associated priority
+    - allows access the element with the highest priority
 
 ## Reference
 
