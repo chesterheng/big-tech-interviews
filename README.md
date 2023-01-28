@@ -54,6 +54,14 @@
   - priority queue
     - holds a collection of elements, each with an associated priority
     - allows access the element with the highest priority
+- 2D-Arrays
+  - traversal
+    - 4 directions: up, right, down, left
+    - sequential search: scan 2D array in a zigzag pattern
+    - breath first search: iterative
+    - depth first search: recursion
+  - values
+    - limited or unlimited
 
 ## Reference
 
