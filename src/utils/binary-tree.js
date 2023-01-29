@@ -45,4 +45,17 @@ var breathFirstSearch = function (root) {
   return result;
 };
 
-module.exports = { TreeNode };
+var depthFirstSearch = function (root, result = []) {
+  if (!root) return;
+
+  // pre-order traversal: node, left, right
+  const currentNodeValue = root.val;
+  result.push(currentNodeValue);
+
+  depthFirstSearch(root.left, result);
+  depthFirstSearch(root.right, result);
+
+  return result;
+};
+
+module.exports = { TreeNode, breathFirstSearch, depthFirstSearch };

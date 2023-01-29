@@ -8,6 +8,13 @@
   - figure out a solution without code
   - write out our solution in code
   - double check for errors
+- algorithmic approaches
+  - sorting
+  - divide and conquer
+  - greedy method: optimization problem (max or min)
+  - dynamic programming: optimization problem (max or min)
+  - backtracking
+  - recursion
 - Arrays
   - hash map
   - two-pointer
@@ -62,9 +69,40 @@
     - depth first search: recursion
   - values
     - limited or unlimited
+- Graphs
+  - node(vertex) and connection(edge)
+  - connection
+    - cyclic vs acyclic
+    - unconnected
+    - undirected vs directed
+    - unweighted vs weighted
+  - examples: binary trees and 2D arrays
+  - representaion
+    - adjacency list
+    - adjacency matrix
+  - traversal
+    - breath first search: iterative
+    - depth first search: recursion
+  - topological sort
+    - indegree: how many connections are coming into a vertex
+    - topological ordering
+      - remove any vertex with indegree = 0 and push to array
+      - reduce indegree of attached vertices by 1
+      - continue until all vertices are removed
+    - topological order is possible for directed acyclic graph (DAG)
+  - dijkstra's algorithm
+    - a greedy method approach
+    - works for postive weight only
+    - cannot work for negative cycle
+  - bellman-ford algorithm
+    - dynamic programming approach
+    - state space tree
+    - cannot work for negative cycle
+    - can detect negative cycle
 
 ## Reference
 
 - [NeetCode](https://neetcode.io/roadmap)
 - [Recursion Deep Dive](https://1drv.ms/b/s!AhqSA0q1bsCWniY4GVzGAsUraPQd?e=HDQ0xt)
 - [Recursion Challenge](http://csbin.io/recursion)
+- [Top LeetCode Patterns for FAANG Coding Interviews](https://designgurus.org/blog/top-lc-patterns)

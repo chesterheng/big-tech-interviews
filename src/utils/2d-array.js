@@ -3,12 +3,10 @@ const traversalDFS = function (matrix) {
     .fill(0)
     .map(() => new Array(matrix[0].length).fill(false));
 
-  const values = [];
-  dfs(matrix, 0, 0, seen, values);
-  return values;
+  return dfs(matrix, 0, 0, seen);
 };
 
-const dfs = function (matrix, row, col, seen, values) {
+const dfs = function (matrix, row, col, seen, values = []) {
   if (
     row < 0 ||
     col < 0 ||
@@ -25,6 +23,8 @@ const dfs = function (matrix, row, col, seen, values) {
     const currentDir = directions[i];
     dfs(matrix, row + currentDir[0], col + currentDir[1], seen, values);
   }
+
+  return values;
 };
 
 const traversalBFS = function (matrix) {
@@ -79,4 +79,4 @@ const directions = [
 traversalDFS(testMatrix);
 traversalBFS(testMatrix);
 
-module.exports = { directions };
+module.exports = { directions, traversalDFS, traversalBFS };
