@@ -99,6 +99,15 @@
     - state space tree
     - cannot work for negative cycle
     - can detect negative cycle
+- Dynamic Programming
+  - recursive solution from recurrence relation
+  - memorize redundant recursive call (state-space tree)
+    - top down approach
+  - bottom up tabulation (convert recursion to iterative solution)
+    - remove the need for call stack that come with recursion
+  - bottom up optimization
+    - reduce size of dp array
+  - [Dynamic Programming List](https://www.udemy.com/course/master-the-coding-interview-big-tech-faang-interviews/learn/lecture/24685746#overview)
 
 ## Reference
 
