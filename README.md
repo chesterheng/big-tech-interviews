@@ -108,6 +108,12 @@
   - bottom up optimization
     - reduce size of dp array
   - [Dynamic Programming List](https://www.udemy.com/course/master-the-coding-interview-big-tech-faang-interviews/learn/lecture/24685746#overview)
+- Backtracking
+  - return all solutions (paths)
+  - backtrack when violate constraints 
+  - return a valid solution amongst all solutions
+  - by brute force
+  - by recursive: add, decide, remove
 
 ## Reference
 
