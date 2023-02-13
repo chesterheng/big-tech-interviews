@@ -121,3 +121,5 @@
 - [Recursion Deep Dive](https://1drv.ms/b/s!AhqSA0q1bsCWniY4GVzGAsUraPQd?e=HDQ0xt)
 - [Recursion Challenge](http://csbin.io/recursion)
 - [Top LeetCode Patterns for FAANG Coding Interviews](https://designgurus.org/blog/top-lc-patterns)
+- [Leetcode 75 Questions](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0)
+- [Tech Interview Handbook](https://www.techinterviewhandbook.org/)

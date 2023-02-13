@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/container-with-most-water/
-// 
 
 var maxArea = function(height) {
   let maxValue = 0, leftPointer = 0, rightPointer = height.length-1;
